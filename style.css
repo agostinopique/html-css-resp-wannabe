@@ -76,6 +76,12 @@ img {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   body, h1 {
     margin: 0;
   }
@@ -121,6 +127,7 @@ img {
   #lezioni,
   #why {
     background-color: #F2F2CD;
+    transition: background-color 1.5s;
   }
 }
 
@@ -173,6 +180,7 @@ img {
   #lezioni,
   #why {
     background-color: #87e677;
+    transition: background-color 1.5s;
   }
 
   #lezioni,
@@ -183,6 +191,7 @@ img {
   h1 {
     box-shadow: 11px 1px 24px rgb(13, 107, 10);
     margin: 25px 0;
+    transition: box-shadow 1.5s;
   }
 }
 /* /MEDIA QUERY */

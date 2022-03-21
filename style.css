@@ -132,6 +132,12 @@ img {
 }
 
 @media screen and (min-width: 421px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   body, h1 {
     margin: 0;
   }

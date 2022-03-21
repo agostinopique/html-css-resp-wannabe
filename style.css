@@ -124,4 +124,65 @@ img {
   }
 }
 
+@media screen and (min-width: 421px) and (max-width: 1023px) {
+  body, h1 {
+    margin: 0;
+  }
+  
+  .row {
+    padding:5px 10px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  body img {
+    height: 100px;
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;    
+    margin: 5px 0 2px 0;
+  }
+
+  #steps .row {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #why .row img{
+    padding: 20px;
+    height: 80px;
+  }
+
+  #lezioni .row>.right,
+  #lezioni .row>.left,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third,
+  h3 {
+    margin: 5px 0 2px 0;
+  }
+
+  #lezioni,
+  #why {
+    background-color: #87e677;
+  }
+
+  #lezioni,
+  #steps {
+    border-bottom: 1px solid rgb(216, 114, 114);
+  }
+
+  h1 {
+    box-shadow: 11px 1px 24px rgb(13, 107, 10);
+    margin: 25px 0;
+  }
+}
 /* /MEDIA QUERY */
